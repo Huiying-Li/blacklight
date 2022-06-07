@@ -35,5 +35,4 @@ traitlets        : 4.3.3
 
 ### How to run detection: 
 
-Please look into the example in `example.ipynb` as reference.
-
+Please look into the example in `example.ipynb` as reference. Please make sure all the queries, including both attack and benign queries, are in the same format. Please normalize the queries into $[0,1]$.
