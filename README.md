@@ -21,8 +21,6 @@ ipykernel        : 5.5.6
 ipywidgets       : 7.7.0
 jupyter_client   : 7.1.2
 jupyter_core     : 4.9.2
-jupyter_server   : not installed
-jupyterlab       : not installed
 nbclient         : 0.5.9
 nbconvert        : 6.0.7
 nbformat         : 5.1.3
@@ -31,8 +29,14 @@ qtconsole        : 5.2.2
 traitlets        : 4.3.3
 ```
 
-
-
 ### How to run detection: 
 
 Please look into the example in `example.ipynb` as reference. Please normalize the queries into $[0,1]$ and make sure all the queries, including both attack and benign queries, are in the same format.
+
+### Citation:
+@inproceedings{li2022blacklight,
+  title={Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks},
+  author={Li, Huiying and Shan, Shawn and Wenger, Emily and Zhang, Jiayun and Zheng, Haitao and Zhao, Ben Y},
+  journal={Proc. of USENIX Security},
+  year={2022}
+}
