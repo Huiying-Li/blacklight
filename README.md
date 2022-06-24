@@ -34,9 +34,11 @@ traitlets        : 4.3.3
 Please look into the example in `example.ipynb` as reference. Please normalize the queries into $[0,1]$ and make sure all the queries, including both attack and benign queries, are in the same format.
 
 ### Citation:
+```
 @inproceedings{li2022blacklight,
   title={Blacklight: Scalable Defense for Neural Networks against Query-Based Black-Box Attacks},
   author={Li, Huiying and Shan, Shawn and Wenger, Emily and Zhang, Jiayun and Zheng, Haitao and Zhao, Ben Y},
   journal={Proc. of USENIX Security},
   year={2022}
 }
+```
